@@ -44,7 +44,7 @@ body{
     width: 100%;
     height: 630px;
     margin: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background: url(../assets/hero-bg.png),rgba(0, 25, 49, 0.8);
     /* background-position:center; */
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ body{
 }
 
 .banner-container{
-    border: 3px solid red;
+    /* border: 3px solid red; */
     /* width: 88%;
     height: 32%; */
     margin: auto;
@@ -87,3 +87,76 @@ body{
   font-weight: 600;
 }
 
+.banner-title{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: white;
+}
+
+#banner-txt-color{
+    color: rgba(48, 184, 104, 1);
+}
+
+.banner-discription{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 300;   
+    line-height: 28px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 16px;
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, #34d399, #22c55e);
+  color: #ffffff;
+  padding: 14px 22px;
+  border-radius: 12px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(34, 197, 94, 0.45);
+}
+
+.arrow {
+  font-size: 18px;
+}
+
+.btn-outline {
+  background: transparent;
+  color: #e5e7eb;
+  padding: 14px 22px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease, border 0.2s ease;
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.4);
+}
+
+.play {
+  font-size: 14px;
+}
