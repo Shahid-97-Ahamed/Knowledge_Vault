@@ -335,6 +335,12 @@ body{
     line-height: 24px;
 }
 
+.message {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 25px;
+}
+
 #btn {
     padding: 14px 28px;
     font-size: 16px;
@@ -378,7 +384,7 @@ body{
 }
 
 .footer-logo img {
-  width: 36px;
+  width: 116px;
 }
 
 .footer-logo span {
@@ -399,14 +405,15 @@ body{
   font-size: 14px;
 }
 
-.icons {
+/* Icons container */
+.icon-list {
   display: flex;
   gap: 12px;
   justify-content: flex-end;
 }
 
 /* Common icon style */
-.icon {
+.social-icon {
   width: 34px;
   height: 34px;
   border-radius: 50%;
@@ -418,23 +425,24 @@ body{
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
+  transition: background 0.2s ease;
 }
 
 /* Hover effect */
-.icon:hover {
+.social-icon:hover {
   background-color: #e5e7eb;
 }
 
 /* Platform-specific tweaks */
-.icon.x {
+.social-icon.x {
   font-size: 13px;
 }
 
-.icon.in {
+.social-icon.in {
   font-size: 13px;
 }
 
-.icon.fb {
+.social-icon.fb {
   font-size: 16px;
 }
 
