@@ -160,3 +160,75 @@ body{
 .play {
   font-size: 14px;
 }
+/* notes section */
+.notes-section {
+  padding: 80px 5%;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+/* Heading */
+.notes-header h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 54px;
+  color: rgba(0, 25, 49, 1);
+}
+
+.notes-header p {
+  margin-top: 12px;
+  color: rgba(98, 115, 130, 1);
+  font-size: 16px;
+    font-weight: 400;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cards Layout */
+.notes-cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.note-card {
+  width: 260px;
+}
+
+
+/* Card */
+.note-card {
+  background: #ffffff;
+  color: #111827;
+  padding: 40px 30px;
+  border-radius: 14px;
+}
+
+
+/* Icon */
+.icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 20px;
+  background: #ff5c5c;
+  color: white;
+  font-size: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card Text */
+.note-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.note-card p {
+  font-size: 14px;
+  color: #6b7280;
+  line-height: 1.6;
+}
