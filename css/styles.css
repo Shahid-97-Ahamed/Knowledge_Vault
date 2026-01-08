@@ -241,6 +241,7 @@ body{
     height: 600px;
   padding: 120px;
   background-color: #ffffff;
+  margin: 0 auto;
   gap: 60px;
 }
 
@@ -249,6 +250,7 @@ body{
   display: flex;
   align-items: center;
   gap: 80px;
+  margin: 0 auto;
 }
 
 /* Left image */
@@ -309,7 +311,50 @@ body{
   height: 20px;
 }
 
+/* early access section */
+.early-access {
+    width: 73%;
+    margin: 80px auto;
+    padding: 60px;
+    background-color: #f9f8f4;
+    text-align: center;
+    border-radius: 16px;
+}
 
+.early-access h1 {
+    font-size: 36px;
+    color: #0b1f33;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b7a8c;
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+
+#btn {
+    padding: 14px 28px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4c8c62;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btn #arrow {
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.note {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #6b7a8c;
+}
 
 /* footer section start */
 
