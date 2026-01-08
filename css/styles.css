@@ -232,3 +232,80 @@ body{
   color: #6b7280;
   line-height: 1.6;
 }
+
+/* knowledge section start */
+
+/* Section */
+.second-brain {
+    max-width: 88%;
+    height: 600px;
+  padding: 120px;
+  background-color: #ffffff;
+  gap: 60px;
+}
+
+/* Main layout */
+.brain-container {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+/* Left image */
+.brain-image img {
+  width: 420px;
+  height: auto;
+}
+
+/* Right content */
+.brain-content {
+  max-width: 520px;
+}
+
+/* Section tag */
+.section-tag {
+  color: #16a34a;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Title */
+.brain-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 16px 0;
+}
+
+/* Description */
+.brain-description {
+  font-size: 16px;
+  color: #64748b;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* List */
+.brain-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* List items */
+.brain-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #0f172a;
+  margin-bottom: 14px;
+}
+
+/* Check icon */
+.brain-list li img {
+  width: 20px;
+  height: 20px;
+}
+
